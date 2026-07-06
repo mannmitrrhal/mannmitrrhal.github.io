@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mannmit Rhal — FinTech & Data Analytics</title>
+<meta name="description" content="Mannmit Rhal — FinTech & Data Analytics student in London. Projects, experience, and a bit about me beyond the CV.">
+
+<!-- Favicon: simple 'M' monogram -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23D97757'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='36' fill='%23FAF9F5' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;450;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============================================================
+     NAVIGATION
+     To add/remove a section link, edit the list below AND make
+     sure the section id (e.g. id="projects") exists further down.
+============================================================= -->
+<header class="nav" id="top">
+  <nav class="nav-inner">
+    <a href="#top" class="nav-logo">Mannmit&nbsp;Rhal</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#programmes">Programmes</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#life">Off the clock</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta">Get in touch</a>
+    <button class="nav-burger" id="navBurger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<!-- Mobile menu overlay -->
+<div class="mobile-menu" id="mobileMenu">
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#programmes">Programmes</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#life">Off the clock</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</div>
+
+<main>
+
+<!-- ============================================================
+     HERO  —  EDIT: headline, intro line, and buttons here
+============================================================= -->
+<section class="hero">
+  <div class="container">
+    <p class="eyebrow reveal">FinTech &amp; Data Analytics · London</p>
+    <h1 class="hero-title reveal">
+      Hi, I'm Mannmit.<br>
+      I make sense of <em>finance</em> with data.
+    </h1>
+    <p class="hero-sub reveal">
+      BSc FinTech &amp; Data Analytics at the University of Westminster, predicted First Class Honours.
+      Curious about markets, genuinely into AI, and building a career at the point where finance and technology meet.
+    </p>
+    <div class="hero-actions reveal">
+      <a class="btn btn-primary" href="#projects">See my work</a>
+      <a class="btn btn-ghost" href="https://www.linkedin.com/in/mannmitrhal/" target="_blank" rel="noopener">LinkedIn</a>
+      <!-- EDIT: to enable the CV button, drop your final PDF into assets/cv/
+           as Mannmit-Rhal-CV.pdf, then remove the comment markers around the link below.
+      <a class="btn btn-ghost" href="assets/cv/Mannmit-Rhal-CV.pdf" target="_blank" rel="noopener">Download CV</a>
+      -->
+    </div>
+  </div>
+  <div class="hero-fade" aria-hidden="true"></div>
+</section>
+
+<!-- ============================================================
+     ABOUT  —  EDIT: bio paragraphs + swap the photo placeholder
+     for <img src="assets/photos/your-photo.jpg" alt="Mannmit Rhal">
+============================================================= -->
+<section id="about" class="section">
+  <div class="container">
+    <p class="section-label reveal">About</p>
+    <div class="about-grid">
+      <div class="about-photo reveal">
+        <!-- PHOTO SLOT: replace this whole div's contents with an <img> tag -->
+        <div class="photo-slot photo-portrait">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path stroke-linecap="round" stroke-linejoin="round" d="M6.827 6.175A2.31 2.31 0 015.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 00-1.134-.175 2.31 2.31 0 01-1.64-1.055l-.822-1.316a2.192 2.192 0 00-1.736-1.039 48.774 48.774 0 00-5.232 0 2.192 2.192 0 00-1.736 1.039l-.821 1.316z"/><path stroke-linecap="round" stroke-linejoin="round" d="M16.5 12.75a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0z"/></svg>
+          <span>Your photo here</span>
+        </div>
+      </div>
+      <div class="about-text">
+        <h2 class="section-title reveal">A bit more than the CV</h2>
+        <p class="reveal">
+          I'm an international student from India, now based in London, studying FinTech &amp; Data Analytics
+          at Westminster. The degree was an easy choice — I've always been pulled towards both finance and
+          technology, and I'd rather work where they overlap than pick a lane.
+        </p>
+        <p class="reveal">
+          What excites me most right now is AI in finance: how large language models are changing research,
+          risk, and decision-making. It's something I explore in my own time, well beyond what any module asks for.
+        </p>
+        <p class="reveal">
+          I care about what numbers <em>imply</em>, not just what they say — whether that's a regression output,
+          a sales dashboard, or the framing of a film scene I've watched three times.
+        </p>
+        <div class="fact-row reveal">
+          <div class="fact"><span class="fact-num">First</span><span class="fact-label">predicted class honours</span></div>
+          <div class="fact"><span class="fact-num">10 / 700+</span><span class="fact-label">selected for Singapore delegation</span></div>
+          <div class="fact"><span class="fact-num">2027</span><span class="fact-label">graduating class</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     EXPERIENCE  —  EDIT: each <article class="xp"> is one role.
+     Copy-paste a whole block to add a new one.
+============================================================= -->
+<section id="experience" class="section section-alt">
+  <div class="container">
+    <p class="section-label reveal">Experience</p>
+    <h2 class="section-title reveal">Where I've worked</h2>
+
+    <article class="xp reveal">
+      <div class="xp-when">May – Jun 2026</div>
+      <div class="xp-body">
+        <h3>Market &amp; Sector Analyst</h3>
+        <p class="xp-org">AnyFeast — AI meal-planning startup · Remote, UK</p>
+        <ul>
+          <li>Screened 120+ potential angel investors with a consistent framework covering investor type, geography, sector, and stage fit.</li>
+          <li>Verified every shortlisted investor against primary sources — company sites, Crunchbase, annual letters, portfolio companies — and ranked them with a rationale, a key limitation, and a tailored opening line.</li>
+          <li>Wrote the market sentiment and sector analysis for the final report, correcting earlier unverified figures so the numbers held up to investor scrutiny.</li>
+          <li>Built a Top 5 priority framework and contributed to a 90-day roadmap supporting a £250,000 angel raise; delivered an 11-slide report and a 3-sheet investor tracker.</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="xp reveal">
+      <div class="xp-when">May 2025 – Present</div>
+      <div class="xp-body">
+        <h3>Sales Assistant</h3>
+        <p class="xp-org">Oysho, Inditex Group · London, UK</p>
+        <ul>
+          <li>Handled multi-channel customer transactions through peak trading, with consultative upselling contributing an estimated 10–15% uplift in average basket value.</li>
+          <li>Monitored daily sales dashboards and stock reports across 8+ product categories, flagging low-stock lines to reduce stockout risk on high-turnover SKUs.</li>
+          <li>Used sales performance data to inform weekly floor layouts — a small but real link between commercial analytics and what customers actually see.</li>
+        </ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ============================================================
+     PROJECTS  —  EDIT: each card is one project.
+     Change the href="#" links to your GitHub repo / live demo URLs.
+============================================================= -->
+<section id="projects" class="section">
+  <div class="container">
+    <p class="section-label reveal">Projects</p>
+    <h2 class="section-title reveal">Things I've built</h2>
+
+    <div class="project-grid">
+      <article class="project reveal">
+        <div class="project-meta">Python · Nov 2025</div>
+        <h3>Market Risk &amp; Return Analysis</h3>
+        <p>
+          An investment briefing on NVIDIA vs the S&amp;P 500 across the 2022 drawdown and recovery.
+          Computed daily returns, annualised volatility (~70% vs ~18%) and correlation (r ≈ 0.62)
+          to quantify diversification benefit and high-beta exposure.
+        </p>
+        <p class="project-finding">
+          Key finding: NVIDIA's Sharpe-adjusted return during the recovery outpaced the index by ~3×,
+          with correlation weakening in stress periods.
+        </p>
+        <div class="tags">
+          <span>Python</span><span>Pandas</span><span>Matplotlib</span><span>Yahoo Finance API</span>
+        </div>
+        <div class="project-links">
+          <!-- EDIT: point these at your real repo / write-up -->
+          <a href="#" class="text-link" target="_blank" rel="noopener">View on GitHub →</a>
+        </div>
+      </article>
+
+      <article class="project reveal">
+        <div class="project-meta">Excel · Nov 2025</div>
+        <h3>US GDP Forecasting &amp; Regression</h3>
+        <p>
+          A multi-variable OLS regression on 80+ quarterly observations (2004–2025) using inflation,
+          unemployment, interest rates and debt-to-GDP as predictors — R² &gt; 0.80, validated with
+          Breusch-Pagan and Durbin-Watson diagnostics before forecasting.
+        </p>
+        <p class="project-finding">
+          Key finding: rising debt-to-GDP alongside low unemployment flagged a stagflation-risk
+          scenario — a headwind for equity valuations.
+        </p>
+        <div class="tags">
+          <span>Excel</span><span>OLS Regression</span><span>Hypothesis Testing</span><span>Forecasting</span>
+        </div>
+        <div class="project-links">
+          <!-- EDIT: point these at your real repo / write-up -->
+          <a href="#" class="text-link" target="_blank" rel="noopener">View the model →</a>
+        </div>
+      </article>
+    </div>
+
+    <p class="section-footnote reveal">
+      More on the way — this section grows as I do.
+      <!-- EDIT: add your GitHub profile URL below -->
+      <a href="#" class="text-link" target="_blank" rel="noopener">Follow along on GitHub →</a>
+    </p>
+  </div>
+</section>
+
+<!-- ============================================================
+     SELECTED PROGRAMMES  —  EDIT: one card per programme.
+============================================================= -->
+<section id="programmes" class="section section-alt">
+  <div class="container">
+    <p class="section-label reveal">Selected programmes</p>
+    <h2 class="section-title reveal">Chosen, not just enrolled</h2>
+    <p class="section-intro reveal">
+      Competitive programmes I applied for and was selected into — the experiences that took
+      the degree beyond the lecture hall.
+    </p>
+
+    <div class="programme-grid">
+      <article class="programme reveal">
+        <div class="programme-top">
+          <span class="programme-place">Singapore</span>
+          <span class="programme-date">June 2025</span>
+        </div>
+        <h3>Westminster Working Cultures — International Delegate</h3>
+        <p>
+          One of 10 students selected from a field of 700+ for a structured business immersion in
+          Singapore's financial district. Met professionals across asset management, consulting and
+          fintech, with sessions on capital markets and investment strategy — and a first-hand look
+          at how regionally active firms think about cross-border risk, talent and deal flow.
+        </p>
+        <span class="badge">10 of 700+ applicants</span>
+      </article>
+
+      <article class="programme reveal">
+        <div class="programme-top">
+          <span class="programme-place">Paris</span>
+          <span class="programme-date">Spring 2026</span>
+        </div>
+        <h3>Westminster School of Finance &amp; Accounting — Paris Study Trip</h3>
+        <p>
+          Selected for the school's academic trip to Paris, exploring how finance and economics work
+          in practice. Visited Citéco — the Museum of Banking and Economics — and UNESCO Headquarters,
+          connecting classroom theory to the history and institutions that shaped it.
+        </p>
+        <span class="badge">Competitive selection</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     EDUCATION + SKILLS
+============================================================= -->
+<section id="education" class="section">
+  <div class="container">
+    <p class="section-label reveal">Education &amp; skills</p>
+    <h2 class="section-title reveal">The foundations</h2>
+
+    <div class="edu-grid">
+      <div class="edu-col">
+        <article class="edu reveal">
+          <div class="edu-when">2024 – 2027</div>
+          <h3>BSc FinTech &amp; Data Analytics</h3>
+          <p class="edu-org">University of Westminster · London</p>
+          <p>Predicted First Class Honours. Modules include Computational Finance, Macroeconomic
+          Modelling, Financial Data Analysis, and Statistics for Data Science.</p>
+        </article>
+        <article class="edu reveal">
+          <div class="edu-when">2024</div>
+          <h3>A-Level Equivalent</h3>
+          <p class="edu-org">DPGA · Mumbai, India</p>
+          <p>Mathematics (A*) · Physics (A) · Chemistry (A)</p>
+        </article>
+      </div>
+
+      <div class="skills-col reveal">
+        <div class="skill-group">
+          <h4>Programming &amp; tools</h4>
+          <p>Python (Pandas, NumPy, Matplotlib) · Excel (regression, forecasting, pivot tables) · Yahoo Finance API · Bloomberg (academic) · Git</p>
+        </div>
+        <div class="skill-group">
+          <h4>Financial methods</h4>
+          <p>Portfolio risk &amp; beta · Sharpe ratio · Correlation · Macroeconomic indicators · Equity valuation</p>
+        </div>
+        <div class="skill-group">
+          <h4>Statistics</h4>
+          <p>Regression diagnostics (Breusch-Pagan, Durbin-Watson) · Significance testing · Forecasting · Data validation</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     OFF THE CLOCK  —  EDIT: hobbies + photo gallery.
+     Swap any .photo-slot for an <img src="assets/photos/...">.
+============================================================= -->
+<section id="life" class="section section-alt">
+  <div class="container">
+    <p class="section-label reveal">Off the clock</p>
+    <h2 class="section-title reveal">What I do when the laptop's closed</h2>
+
+    <div class="life-grid">
+      <article class="life-card reveal">
+        <span class="life-icon">🥁</span>
+        <h3>Drums</h3>
+        <p>I've loved music since I was a kid, and drumming is the one thing that fully pulls me into
+        the present. Stressful week? The kit resets me every time.</p>
+      </article>
+      <article class="life-card reveal">
+        <span class="life-icon">🎾</span>
+        <h3>Tennis &amp; swimming</h3>
+        <p>I grew up playing a lot of sport and the competitive streak never left. Tennis and swimming
+        keep me sharp — I do them because I love them, not because I have to.</p>
+      </article>
+      <article class="life-card reveal">
+        <span class="life-icon">✈️</span>
+        <h3>Travel</h3>
+        <p>Mumbai to London, Singapore to Paris — every trip changes how I see things a little.
+        Travelling is the fastest way I know to learn something you can't get from a book.</p>
+      </article>
+      <article class="life-card reveal">
+        <span class="life-icon">🤝</span>
+        <h3>People</h3>
+        <p>Above everything, I'm a people person. Hanging out with friends, meeting new faces —
+        I'm energised by good conversation and I value the connections I build.</p>
+      </article>
+    </div>
+
+    <!-- PHOTO GALLERY: replace each .photo-slot with an <img>. Keep 3–6 for the nicest layout. -->
+    <div class="gallery reveal">
+      <div class="photo-slot"><span>Travel photo</span></div>
+      <div class="photo-slot"><span>On the drums</span></div>
+      <div class="photo-slot"><span>Match day</span></div>
+      <div class="photo-slot"><span>With friends</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CONTACT
+============================================================= -->
+<section id="contact" class="section section-contact">
+  <div class="container">
+    <p class="section-label reveal">Contact</p>
+    <h2 class="contact-title reveal">Let's talk.</h2>
+    <p class="contact-sub reveal">
+      Open to internships and opportunities in finance, fintech and data.
+      If you think we'd work well together, I'd love to hear from you.
+    </p>
+    <div class="hero-actions reveal">
+      <a class="btn btn-primary" href="mailto:Mannmit.r.rhal@gmail.com">Email me</a>
+      <a class="btn btn-ghost" href="https://www.linkedin.com/in/mannmitrhal/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+    <div class="contact-details reveal">
+      <div><span>Email</span>Mannmit.r.rhal@gmail.com</div>
+      <div><span>Phone</span>+44 7554 739968</div>
+      <div><span>Based in</span>London, UK</div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <span>© 2026 Mannmit Rhal</span>
+    <a href="#top" class="text-link">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
