@@ -9,6 +9,16 @@ const onScroll = () => nav.classList.toggle('scrolled', window.scrollY > 12);
 onScroll();
 window.addEventListener('scroll', onScroll, { passive: true });
 
+// --- "Back to top" links: handled directly rather than via #top anchor
+// scrolling, since a zero-height anchor target is unreliable across browsers.
+document.querySelectorAll('a[href="#top"]').forEach(a => {
+  a.addEventListener('click', e => {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    history.pushState(null, '', '#top');
+  });
+});
+
 // --- Mobile menu (burger) ---
 const burger = document.getElementById('navBurger');
 const mobileMenu = document.getElementById('mobileMenu');
