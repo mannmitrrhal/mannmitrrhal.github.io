@@ -685,7 +685,7 @@ section[id] { scroll-margin-top: calc(var(--nav-h) + 8px); }
   gap: 20px;
 }
 
-.gallery .photo-slot { aspect-ratio: 1; }
+.gallery .photo-slot { aspect-ratio: 1; min-width: 0; }
 
 /* ============================================================
    CONTACT — dark ink bookend for contrast
