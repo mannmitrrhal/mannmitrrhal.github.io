@@ -523,6 +523,10 @@ section[id] { scroll-margin-top: calc(var(--nav-h) + 8px); }
   gap: 24px;
 }
 
+/* When an odd number of cards leaves a lone one on its own row,
+   let it stretch full width instead of sitting half-empty. */
+.programme-grid .programme:last-child:nth-child(odd) { grid-column: 1 / -1; }
+
 .programme {
   background: var(--surface);
   border: 1px solid var(--line);
